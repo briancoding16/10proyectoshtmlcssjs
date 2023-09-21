@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda de Contactos</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Agenda de Contactos</h1>
+    </header>
+
+    <section class="add-contact">
+      <h2>Agregar Contacto</h2>
+      <form id="contactForm">
+        <input type="text" id="contactName" placeholder="Nombre" required />
+        <input type="tel" id="contactTel" placeholder="Telefono" required />
+        <button type="submit">Agregar</button>
+      </form>
+    </section>
+
+    <section class="search">
+      <input type="text" id="searchInput" placeholder="Buscar..." />
+    </section>
+
+    <section class="contact-list">
+      <ul id="contactList"></ul>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Colores RGB</title>
+</head>
+<body>
+    <div class="container">
+      <h1>Generador de Colores</h1>
+            <div id="colorDisplay" class="colorDisplay"></div>
+               
+            <div class="sliders">
+                    <label > :R
+                       <input type="range" min="0" max="255" id="rRange">
+                    </label>
+
+                    <label > :G
+                        <input type="range" min="0" max="255" id="gRange">
+                     </label>
+
+
+                     <label > :B
+                        <input type="range" min="0" max="255" id="bRange">
+                     </label>
+            </div>
+         <p id="rgbValue">RGB(0,0,0)</p>
+         <button id="copyButton">Copiar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

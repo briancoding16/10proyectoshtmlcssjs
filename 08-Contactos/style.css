@@ -1,0 +1,72 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #edf2f7;
+    color: #2d3748;
+}
+
+
+header {
+    background:#2c7a7b ;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+
+}
+
+.add-contact, .search, .contact-list {
+    max-width: 450px;
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.05);
+}
+
+
+input, button {
+    padding: 0.7rem 1rem;
+    margin: 0.7rem 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+input {
+    background-color: #f7fafc;
+    color: #2d3748;
+    outline: none;
+    border: 1px solid #e2e8f0;
+
+}
+
+input:focus {
+    border-color: #a0aec0;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.5);
+}
+
+
+button {
+    background-color: #2c7a7b;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+}
+
+
+button:hover {
+    background-color: #285e5a;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rbg(50, 50, 93, .1);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 8px rbg(50, 50, 93, .1);
+}
+
